@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
     <title>手机归属地查询</title>
-    <link rel="stylesheet" href="statis/css/bootstrap.min.css"/>
-    <script src="statis/js/jquery.min.js"></script>
-    <script src="statis/js/base.js"></script>
+    <link rel="stylesheet" href="statics/css/bootstrap.min.css" />
+    <script src="statics/js/jquery.min.js"></script>
+    <script src="statics/js/base.js"></script>
     <style>
-        .container {
-            width: 300px;
-        }
-        #phoneInfo {
-            display: none;
-        }
+    .container {
+        width: 300px;
+    }
+    
+    #phoneInfo {
+        display: none;
+    }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="form-group">
             <label for="">请输入手机号码</label>
             <div class="input-group">
-                <input type="text" id="phoneText" class="form-control"/>
+                <input type="text" id="phoneText" class="form-control" />
                 <span class="input-group-btn">
                     <button class="btn btn-default" id="subPhone">查询</button>
                 </span>
@@ -54,4 +57,5 @@
         });
     });
 </script>
+
 </html>
